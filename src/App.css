@@ -1,21 +1,54 @@
 .App{
-  max-width: 800px;
-  border: 1px solid black;
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  color: #70757a;
+  max-width: 600px;
+}
+.Search .main-container{
+  padding: 30px;
+  border: 1px solid #ACAFB4;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.Search form{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.Search form > input[type="text"]{
+  padding-left: 10px;
+}
+.description{
+  text-transform: capitalize;
+}
+.weather{
+  display: flex;
+  align-items: center;
+}
+.weather .temperature{
+  color: #202124;
+  font-family: Google Sans,arial,sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  margin-left: 10px;
+
+  /* border: 2px solid; */
+}
+.weather .unit{
+  position: relative;
+  top: -22px;
 }
 a{
   text-decoration: none;
 }
 ul{
   list-style: none;
-  margin: 0;
+  padding: 0;
 }
 @media screen and (min-width: 600px) {
   .App{
-    margin: 20px auto;
-    border: 2px solid black;
-    padding: 20px;
+    margin: 30px auto;
+  }
+  .App form input[type="text"]{
+    width: 80%;
+    border: 1px solid #ACAFB4;
   }
 }

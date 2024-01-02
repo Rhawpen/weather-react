@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.js"],"names":["App","S"],"mappings":";;;;;;;AAAA;;AAEA;;;;AAGA,SAASA,GAAT,GAAe;AACb,SACEC,CADF;AAGD;;eAEcD,G","sourcesContent":["import Search from './Search';\n\nimport './App.css';\n\n\nfunction App() {\n  return (\n    S\n  );\n}\n\nexport default App;\n"],"file":"App.dev.js"}
