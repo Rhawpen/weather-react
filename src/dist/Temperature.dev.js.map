@@ -1,0 +1,1 @@
+{"version":3,"sources":["Temperature.js"],"names":["Temperature","props"],"mappings":";;;;;;;AAAA;;;;AAEe,SAASA,WAAT,CAAqBC,KAArB,EAA2B;AACxC;AACD","sourcesContent":["import React from \"react\";\r\n\r\nexport default function Temperature(props){\r\n  return\r\n}"],"file":"Temperature.dev.js"}

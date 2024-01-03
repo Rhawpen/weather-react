@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Weather city="Lagos" />
+      <Weather defaultCity="Lagos" />
       <footer>
         <p>
           This is an{" "}
