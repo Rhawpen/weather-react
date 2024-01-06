@@ -1,0 +1,1 @@
+{"version":3,"sources":["WeatherForecastDay.js"],"names":["WeatherForecastDay"],"mappings":";;;;;;;AAAA;;;;AAEe,SAASA,kBAAT,GAA6B;AAC1C;AACD","sourcesContent":["import React from \"react\";\r\n\r\nexport default function WeatherForecastDay(){\r\n  return\r\n}"],"file":"WeatherForecastDay.dev.js"}

@@ -1,10 +1,16 @@
+body{
+  background: url("./beach-bg.jpg") no-repeat;
+  background-position: center right;
+
+}
 .App{
-  color: #70757a;
-  max-width: 600px;
+  color: #000;
+  max-width: 700px;
 }
 .Search .main-container{
-  padding: 30px;
-  border: 1px solid #ACAFB4;
+  background-color: rgba(223, 222, 218,0.2);
+  padding: 15px;
+  border-bottom: 2px solid #8A8F92;
   border-radius: 3px;
   margin-bottom: 10px;
 }
@@ -17,23 +23,33 @@
   padding-left: 10px;
   border-radius: 3px;
 }
+.Weather canvas {
+  margin: 10px auto;
+}
+
 .description{
   text-transform: capitalize;
+}
+.condition{
+  border: 2px solid;
+  margin: 15px auto 10px;
+  /* align-items: center; */
 }
 .weather{
   display: flex;
   align-items: center;
+
 }
 .weather .temperature{
   color: #202124;
   font-family: Google Sans,arial,sans-serif;
   font-weight: 400;
-  font-size: 48px;
-  margin-left: 3px;
+  font-size: 64px;
+  margin-left: 8px;
 }
 .weather .unit{
   position: relative;
-  top: -23px;
+  top: -32px;
 }
 .units{
   color: #202124;
@@ -55,5 +71,10 @@ ul{
   .App form input[type="text"]{
     width: 80%;
     border: 1px solid #ACAFB4;
+  }
+  .Search .main-container{
+    padding: 30px;
+    border: 2px solid #8A8F92;
+
   }
 }

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios"
 import WeatherInfo from "./WeatherInfo";
+import Forecast from "./Forecast";
 
 import "./App.css"
 
@@ -18,8 +19,8 @@ export default function Weather({defaultCity}){
       wind: response.data.wind.speed,
       description: response.data.condition.description,
       icon: response.data.condition.icon,
-      iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
       date: new Date(response.data.time * 1000),
+      coordinates: response.data.coordinates
     });
   }
 
@@ -51,6 +52,7 @@ export default function Weather({defaultCity}){
             <input type="submit" value="Search" className="btn btn-primary" />
           </form>
           <WeatherInfo info={weather} />
+          <Forecast coordinate={weather.coordinates}/>
         </div>
       </div>
     );
